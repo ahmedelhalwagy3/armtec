@@ -1,0 +1,301 @@
+
+
+body{
+	font-size: 16px;
+
+	color:white;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#header-nav{
+	border-radius: 0%;
+	border: 0cap;
+	margin-bottom:0px;
+	background-color:whitesmoke;
+
+	
+}
+#logo-img {
+	width: 130px; /* Adjust the width as needed */
+	height: 80px; /* Adjust the height as needed */
+	background-image: url('https://www.produitsbcm.com/wp-content/uploads/2020/07/armtec-logo_cmyk-400dpi-002.png'); /* Replace with the path to your logo image */
+	background-size: cover; /* Adjust to your preference */
+	background-repeat: no-repeat; /* Prevent image from repeating */
+	 margin-left :15px;
+	 margin-right: 0pc; /* Adjust the value to shift the image to the desired distance from the left */
+	 z-index:999;
+  }
+  
+
+  }
+  .navbar-brand p span { /* Star-K */
+	vertical-align: middle;
+  }
+  /* Search container styles */
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+    width: 100%;
+}
+
+.search-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Social icons styles */
+.social-icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-bottom: 0px;
+	margin-left: 5px;
+    cursor: pointer;
+    margin-right: 0px;
+    background-attachment: inherit;
+}
+
+.social-icon1 {
+    background-image: url('https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png');
+}
+
+.social-icon2 {
+    width: 50px;
+    height: 34px;
+    background-image: url('https://www.freeiconspng.com/uploads/logo-whatsapp-png-image-2.png');
+    background-size: cover;
+}
+body {
+    background-image: url('https://wallpapercave.com/wp/wp8216379.jpg'); /* Replace with the path to your image */
+    background-size:cover; /* Adjusts the size of the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-attachment:fixed; /* Keeps the background image fixed while scrolling */
+    background-color: #f0f0f0; /* Fallback background color */
+    background-position: center top 80px; /* Shifting the background image downwards by 50 pixels */
+
+}
+#second-nav{
+	background-color: blueviolet; /* Light blue color */
+  height: 60px;
+  margin-top:0px;
+  display: flex;
+  font-weight: bolder;
+  justify-content: right;
+  align-items: right;
+  background-color: rgba(50, 60, 70, 0.2); /* Adjust the rgba values and opacity as needed */
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	color:black;
+}
+
+.contact-info {
+    margin-top: 20px;
+	color:black;
+}
+
+.contact-info strong {
+	color:black;}
+
+.phone-list {
+    list-style-type: none;
+    padding-left: 0;
+	color:black;
+}
+
+.phone-list li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	color:black;
+}
+.artify{
+	font-size:70px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font: bold;
+	color:rgb(16, 16, 129);
+   font-style:normal;
+   font-weight: 600;
+   margin-left: 50px;
+}
+
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.image-box {
+    width: calc(33.33% - 20px); /* 33.33% width with a 20px gap */
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent background color */
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+
+.description p {
+    font-size: 17px;
+    color: #666;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .image-box {
+        width: calc(50% - 20px);
+    }
+}
+.form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .form-title {
+    font-size: 28px;
+    color: #333;
+	font-style: normal;
+    margin-bottom: 20px;
+  }
+
+  .form-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .form-link {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    border: 2px solid #2980b9;
+    cursor: pointer;
+  }
+
+  .form-link:hover {
+    background-color: #2980b9;
+  }
+
+  .image-box {
+    position: relative;
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(154, 147, 147, 0.5); /* Adjust the alpha (last value) to control transparency */
+    color: black;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.breadcrumb {
+	font-size: 18px;
+	margin: 10px 0;
+	background-color: transparent;
+	color: #007BFF; /* Change to your desired color */
+  }
+  
+  .breadcrumb a {
+	text-decoration: none;
+	color: #333;
+  }
+  
+  .breadcrumb a:hover {
+	text-decoration: underline;
+  }
+  
+  .separator {
+	opacity: 0.6; /* Adjust the opacity as desired for transparency */
+	color: #ddd;
+	margin: 0 5px; /* Add space between the separator and neighboring text */
+  }
+  
+  
+  
+.image-box:hover .description {
+    opacity: 1;
+}
+
+.description-button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    border:#fff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.tablee  {
+	max-width:477px;
+  }
+  .custom-table {
+	width: 477px;
+}
+  th {
+left:5px;
+  }
